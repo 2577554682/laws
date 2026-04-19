@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "cases_count": 2001,
+    "laws_count": 452,
+    "patterns_count": 618,
+    "sample_size": 200,
+    "top_k": 5
+  },
+  "retrieval": {
+    "scan": {
+      "best": {
+        "threshold": 0.6,
+        "sample_size": 200,
+        "hit_at_k": 1,
+        "avg_retrieved_count": 5,
+        "avg_similarity": 0.8485
+      },
+      "report": [
+        {
+          "threshold": 0.6,
+          "sample_size": 200,
+          "hit_at_k": 1,
+          "avg_retrieved_count": 5,
+          "avg_similarity": 0.8485
+        },
+        {
+          "threshold": 0.55,
+          "sample_size": 200,
+          "hit_at_k": 1,
+          "avg_retrieved_count": 5,
+          "avg_similarity": 0.8485
+        },
+        {
+          "threshold": 0.5,
+          "sample_size": 200,
+          "hit_at_k": 1,
+          "avg_retrieved_count": 5,
+          "avg_similarity": 0.8485
+        },
+        {
+          "threshold": 0.45,
+          "sample_size": 200,
+          "hit_at_k": 1,
+          "avg_retrieved_count": 5,
+          "avg_similarity": 0.8485
+        },
+        {
+          "threshold": 0.4,
+          "sample_size": 200,
+          "hit_at_k": 1,
+          "avg_retrieved_count": 5,
+          "avg_similarity": 0.8485
+        },
+        {
+          "threshold": 0.35,
+          "sample_size": 200,
+          "hit_at_k": 1,
+          "avg_retrieved_count": 5,
+          "avg_similarity": 0.8485
+        }
+      ],
+      "sampling": "stratified"
+    },
+    "strict": {
+      "sample_size": 200,
+      "threshold": 0.45,
+      "hit_at_k": 1,
+      "precision_at_k": 0.405,
+      "mrr_at_k": 0.9975,
+      "ndcg_at_k": 0.9703,
+      "avg_retrieved_count": 5,
+      "avg_similarity": 0.8424
+    }
+  },
+  "mapping_modes": {
+    "dynamic": {
+      "sample_size": 200,
+      "fact_coverage": 1,
+      "law_coverage": 1,
+      "example_coverage": 1,
+      "avg_case_count": 12,
+      "avg_fact_count": 5,
+      "avg_law_count": 5,
+      "avg_example_count": 3
+    },
+    "static": {
+      "sample_size": 200,
+      "fact_coverage": 1,
+      "law_coverage": 0.995,
+      "example_coverage": 1,
+      "avg_case_count": 10.31,
+      "avg_fact_count": 3.22,
+      "avg_law_count": 2.65,
+      "avg_example_count": 2.275
+    },
+    "hybrid": {
+      "sample_size": 200,
+      "fact_coverage": 1,
+      "law_coverage": 1,
+      "example_coverage": 1,
+      "avg_case_count": 16.97,
+      "avg_fact_count": 5,
+      "avg_law_count": 5,
+      "avg_example_count": 3
+    }
+  }
+}
